@@ -1,3 +1,5 @@
+package org.campus02.animals;
+
 import java.util.ArrayList;
 
 public class Nature {
@@ -23,7 +25,7 @@ public class Nature {
 
     @Override
     public String toString() {
-        return "Nature{" +
+        return "org.campus02.animals.Nature{" +
                 "animals=" + animals +
                 '}';
     }

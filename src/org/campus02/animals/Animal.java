@@ -1,3 +1,5 @@
+package org.campus02.animals;
+
 public class Animal {
 
     private String color;

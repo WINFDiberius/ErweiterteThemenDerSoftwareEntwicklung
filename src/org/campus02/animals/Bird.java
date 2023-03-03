@@ -1,4 +1,6 @@
-public class Bird extends Animal {
+package org.campus02.animals;
+
+public class Bird extends Animal implements Fly{
 
 
     public Bird(String color, int countEyes, String name) {
@@ -12,5 +14,10 @@ public class Bird extends Animal {
 
     public void makeNoise() {
         System.out.println("chirp chirp");
+    }
+
+    @Override
+    public void fly() {
+
     }
 }
